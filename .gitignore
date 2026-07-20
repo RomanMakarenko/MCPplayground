@@ -1,0 +1,10 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Claude Code config (may contain API keys)
+.claude/
+
+# Node.js
+node_modules/
