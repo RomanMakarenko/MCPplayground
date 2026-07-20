@@ -6,5 +6,15 @@
 # Claude Code config (may contain API keys)
 .claude/
 
+# Log files — audit traces
+log/
+!log/.gitkeep
+
+# Playwright artifacts
+.playwright-mcp/
+
+# MCP packages
+*.tgz
+
 # Node.js
 node_modules/
