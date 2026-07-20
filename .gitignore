@@ -3,8 +3,11 @@
 .env.*
 !.env.example
 
-# Claude Code config (may contain API keys)
-.claude/
+# Claude Code — ignore secrets, track agents & skills
+.claude/settings.local.json
+.claude/settings.json
+.claude/worktrees/
+.claude/workflows/
 
 # Log files — audit traces
 log/
